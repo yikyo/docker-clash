@@ -34,4 +34,4 @@ jobs:
           push: true
           tags: |
             yikyo/clash:latest
-            yikyo/clash:${{ ${{ env.DATE }}}}
+            yikyo/clash:${{ env.DATE }}
