@@ -11,7 +11,7 @@ jobs:
     runs-on: Ubuntu-20.04
     steps:
       - name: Set current date as env variable
-        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+        run: echo "DATE=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
 
       - name: Check out the repo
         uses: actions/checkout@v2
